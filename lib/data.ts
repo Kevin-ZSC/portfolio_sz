@@ -1,6 +1,6 @@
 import fullStackImg from "@/public/fullstackApp.png";
 import ski from "@/public/ski.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import cityImg from "@/public/city.png";
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
@@ -65,7 +65,7 @@ export const projectsData = [
     title: "Basketball Fan Hub",
     description:
       "I worked as a full-stack developer on this project, creating an interactive platform for basketball enthusiasts to engage with the latest news, scores, and player stats.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Express", "Bootstrap"],
+    tags: ["React", "Next.js", "MongoDB", "Express", "Bootstrap"],
     projectUrl: "https://w0458649-fullstack.onrender.com/",
     imageUrl: fullStackImg,
    
@@ -74,17 +74,17 @@ export const projectsData = [
     title: "Martock'site Redesign",
     description:
       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+    tags: ["React", "TypeScript", "Next.js", "TailwindCSS"],
     projectUrl: "https://kevin-zsc.github.io/web3100_final_project/",
     imageUrl: ski,
   },
   {
-    title: "Word Analytics",
+    title: "City's App",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    projectUrl: "https://link-to-project1.com",
-    imageUrl: wordanalyticsImg,
+      "A public web app for managing cities. It allows users to search, add, and modify city details. The app is built with PHP, styled using TailwindCSS, and uses a MySQL database for data storage.",
+    tags: ["PHP", "MySQL", "TailwindCSS"],
+    projectUrl: "https://w0458649-lab5.onrender.com",
+    imageUrl: cityImg,
   },
 ] as const;
 
