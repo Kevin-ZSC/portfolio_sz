@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+    --line-color: #e9ecee;
+    
+    
+  }
+
+  html.dark {
+    --line-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .is-hidden {
+    display: block !important;
+  }
+  
+  .borderBlack {
+    @apply border border-black/10;
+  }
