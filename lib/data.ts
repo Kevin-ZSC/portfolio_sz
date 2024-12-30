@@ -5,6 +5,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+import workoutRecorder from "@/public/workoutRecord.png";
 
 export const links = [
   {
@@ -86,6 +87,14 @@ export const projectsData = [
     projectUrl: "https://w0458649-lab5.onrender.com",
     imageUrl: cityImg,
   },
+  {
+    title: "Workout Tracker",
+    description:
+      "A public web application designed to track and manage workouts. Users can log, search, and update their workout details seamlessly.",
+    tags: ["Next.js", "TypeScript", "TailwindCSS", "MongoDB", "Vercel"],
+    projectUrl: "https://workout-recorder-app.vercel.app/",
+    imageUrl: workoutRecorder,
+  }
 ] as const;
 
 export const skillsData = [
