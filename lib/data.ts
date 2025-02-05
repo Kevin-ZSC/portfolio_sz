@@ -62,31 +62,16 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
-  {
-    title: "Basketball Fan Hub",
-    description:
-      "I worked as a full-stack developer on this project, creating an interactive platform for basketball enthusiasts to engage with the latest news, scores, and player stats.",
-    tags: ["React", "Next.js", "MongoDB", "Express", "Bootstrap"],
-    projectUrl: "https://w0458649-fullstack.onrender.com/",
-    imageUrl: fullStackImg,
-   
-  },
+ 
   {
     title: "Martock'site Redesign",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "Redesigned the home and learning subpages for Martock'site. Implemented responsive design and improved navigation to enhance user experience",
     tags: ["React", "TypeScript", "Next.js", "TailwindCSS"],
-    projectUrl: "https://kevin-zsc.github.io/web3100_final_project/",
+    projectUrl: "https://skisite-mockup.vercel.app/",
     imageUrl: ski,
   },
-  {
-    title: "City's App",
-    description:
-      "A public web app for managing cities. It allows users to search, add, and modify city details. The app is built with PHP, styled using TailwindCSS, and uses a MySQL database for data storage.",
-    tags: ["PHP", "MySQL", "TailwindCSS"],
-    projectUrl: "https://w0458649-lab5.onrender.com",
-    imageUrl: cityImg,
-  },
+  
   {
     title: "Workout Tracker",
     description:
