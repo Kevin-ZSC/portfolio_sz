@@ -6,7 +6,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import workoutRecorder from "@/public/workoutRecord.png";
-
+import familyAppImage from "@/public/familyAppImage.png";
 export const links = [
   {
     name: "Home",
@@ -79,6 +79,14 @@ export const projectsData = [
     tags: ["Next.js", "TypeScript", "TailwindCSS", "MongoDB", "Vercel"],
     projectUrl: "https://workout-recorder-app.vercel.app/",
     imageUrl: workoutRecorder,
+  },
+  {
+    title: "Family connect App",
+    description:
+      "A family connect web application that enables parents to manage events, share posts, and upload photos. ",
+    tags: ["Next.js", "TypeScript", "TailwindCSS", "MongoDB", "Cloudinary", "Vercel"],
+    projectUrl: "https://fam-connect.vercel.app/",
+    imageUrl: familyAppImage,  
   }
 ] as const;
 
